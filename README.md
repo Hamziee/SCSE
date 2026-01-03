@@ -23,7 +23,7 @@ SCSE is a save editor for Scott Cawthon's Clickteam Fusion games. It allows user
 
 ## Installation
 
-You can download the latest release from the [Releases](https://github.com/HamzieDev/SCSE/releases) page (if available) or build it yourself.
+You can download the latest release from the [Releases](https://github.com/Hamziee/SCSE/releases) page (if available) or build it yourself.
 
 ## Development
 
