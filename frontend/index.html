@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>SCSE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="splash-screen">
+        <div class="splash-logo">SCSE</div>
+        <div class="loader"></div>
+    </div>
+    <div id="app">
+        <aside id="sidebar">
+            <div class="logo">SCSE</div>
+            <div id="game-list">
+            </div>
+        </aside>
+        <main id="main">
+            <header>
+                <h1 id="current-game-title">Select a Game</h1>
+                <div class="actions" id="actions" style="display: none;">
+                    <button id="btn-reload" class="btn-secondary">Reload</button>
+                    <button id="btn-save" class="btn-primary">Save Changes</button>
+                </div>
+            </header>
+            <div id="content-area">
+                <p style="text-align: center; color: var(--text-color); margin-top: 50px;">Select a game from the
+                    sidebar to start editing.</p>
+            </div>
+        </main>
+    </div>
+    <div id="toast" class="notification">Saved Successfully!</div>
+    <div id="footer-info">
+        <span class="version">v1.0.0</span>
+        <span class="separator">|</span>
+        <a href="https://github.com/Hamziee/SCSE" target="_blank">GitHub</a>
+    </div>
+    <script type="module" src="./src/main.js"></script>
+</body>
+
+</html>

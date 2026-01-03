@@ -1,0 +1,21 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "SCSE",
+  "outputfilename": "SCSE",
+  "frontend:install": "npm install",
+  "frontend:build": "npm run build",
+  "frontend:dev:watcher": "npm run dev",
+  "frontend:dev:serverUrl": "auto",
+  "author": {
+    "name": "HamzieDev",
+    "email": "hamza@heo-systems.com"
+  },
+  "version": "1.0.0",
+  "info": {
+    "companyName": "github.com/HamzieDev",
+    "productName": "SCSE",
+    "productVersion": "1.0.0",
+    "copyright": "2026 HamzieDev",
+    "comments": "Scott's Clickteam Save Editor (SCSE). MIT License. FNaF and Helpy © Scott Cawthon. Fan-made tool, not affiliated with or endorsed by Scott Cawthon."
+  }
+}

@@ -1,0 +1,17 @@
+build/bin
+frontend/dist
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+frontend/node_modules/
+npm-debug.log
+yarn-error.log
